@@ -13,7 +13,7 @@ const AdminContextProvider = (props) => {
   const [appointments, setAppointments] = useState([]);
   const [dashData, setDashData] = useState(false);
 
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://divine-care-backend.onrender.com";
 
   const getAllDoctors = async () => {
     try {
